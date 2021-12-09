@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'Bruno'; 
+	src: url(/fonts/BrunoAce-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Montserrat'; 
+	src: url(/fonts/Montserrat-Regular.ttf); 
+}
+
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 140px;
+    padding-bottom: 60px;
+    background-image: url(/img/intro.png);
+    color: white;
+}
+
+.intro__social{
+    display: flex;
+    justify-content: center;
+}
+
+
+.intro__social a{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.intro__wa-icon{
+    background-image: url(/img/wa.svg);
+}
+
+.intro__tg-icon{
+    background-image: url(/img/tg.svg);
+    margin: 0 50px;
+}
+
+.intro__insta-icon{
+    background-image: url(/img/insta.svg);
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.title__name{
+    font-size: 52px;
+    font-family: 'Bruno', sans-serif; 
+    line-height: 1.5;
+}
+
+.title__spheres{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title__btn{
+    display: flex;
+
+}
+
+.info__btn-phone{
+    display: block;
+    width: 263px;
+    height: 61px;
+    background: linear-gradient(180deg, rgba(62, 255, 14, 0.3) 0%, rgba(255, 239, 91, 0) 100%), linear-gradient(90deg, #34FBEF 0%, rgba(155, 122, 224, 0) 100%), #49D1B1;
+    border-radius: 50px;
+    margin-right: 55px;
+    position: relative;
+    box-shadow: 0px 0px 20px #4BCFC7;
+    transition: 0.5s;
+    &:hover{
+        box-shadow: 0px 0px 30px #4BCFC7;
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-image: url(/img/phone.svg);
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+}
+
+
+.info__btn-email{
+    position: relative;
+    display: block;
+    width: 263px;
+    height: 61px;
+    background: linear-gradient(180deg, rgba(245, 222, 25, 0.3) 0%, rgba(255, 130, 227, 0) 100%), linear-gradient(90deg, #F9FBAE 0%, rgba(224, 122, 165, 0) 100%), #FF2D84;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px #FDB704;
+    border-radius: 50px;
+    &:hover{
+        box-shadow: 0px 0px 30px #FDB704;
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-image: url(/img/email.svg);
+        background-repeat: no-repeat;
+        left: 50%;
+        top: 50%;
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+}
+
+.intro__scroll{
+    background-image: url(/img/scroll.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 40px;
+    
+}
