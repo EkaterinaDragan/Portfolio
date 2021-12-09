@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Bruno'; 
-	src: url(/fonts/BrunoAce-Regular.ttf); 
+	src: url(../fonts/BrunoAce-Regular.ttf); 
 }
 
 @font-face {
 	font-family: 'Montserrat'; 
-	src: url(/fonts/Montserrat-Regular.ttf); 
+	src: url(../fonts/Montserrat-Regular.ttf); 
 }
 
 
@@ -38,7 +38,7 @@ body {
     min-height: 100vh;
     padding-top: 140px;
     padding-bottom: 60px;
-    background-image: url(/img/intro.png);
+    background-image: url(../img/intro.png);
     color: white;
 }
 
@@ -55,16 +55,16 @@ body {
 }
 
 .intro__wa-icon{
-    background-image: url(/img/wa.svg);
+    background-image: url(../img/wa.svg);
 }
 
 .intro__tg-icon{
-    background-image: url(/img/tg.svg);
+    background-image: url(../img/tg.svg);
     margin: 0 50px;
 }
 
 .intro__insta-icon{
-    background-image: url(/img/insta.svg);
+    background-image: url(../img/insta.svg);
 }
 
 .title{
@@ -106,7 +106,7 @@ body {
         position: absolute;
         width: 30px;
         height: 30px;
-        background-image: url(/img/phone.svg);
+        background-image: url(../img/phone.svg);
         background-repeat: no-repeat;
         left: 50%;
         top: 50%;
@@ -133,7 +133,7 @@ body {
         position: absolute;
         width: 30px;
         height: 30px;
-        background-image: url(/img/email.svg);
+        background-image: url(../img/email.svg);
         background-repeat: no-repeat;
         left: 50%;
         top: 50%;
@@ -143,7 +143,7 @@ body {
 }
 
 .intro__scroll{
-    background-image: url(/img/scroll.svg);
+    background-image: url(../img/scroll.svg);
     background-repeat: no-repeat;
     height: 20px;
     width: 40px;
